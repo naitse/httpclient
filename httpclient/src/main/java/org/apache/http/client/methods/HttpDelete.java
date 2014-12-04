@@ -47,7 +47,7 @@ import org.apache.http.annotation.NotThreadSafe;
  * @since 4.0
  */
 @NotThreadSafe // HttpRequestBase is @NotThreadSafe
-public class HttpDelete extends HttpRequestBase {
+public class HttpDelete extends HttpEntityEnclosingRequestBase {
 
     public final static String METHOD_NAME = "DELETE";
 

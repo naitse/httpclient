@@ -33,7 +33,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>httpcomponents-client</artifactId>
   <name>HttpComponents Client</name>
-  <version>4.2.7-SNAPSHOT</version>
+  <version>4.2.7-CUSTOM</version>
   <description>Apache HttpComponents Client is a library of components for building client side HTTP services</description>
   <url>http://hc.apache.org/httpcomponents-client</url>
   <inceptionYear>1999</inceptionYear>
@@ -210,7 +210,7 @@
                 <goal>jar</goal>
               </goals>
             </execution>
-          </executions>        
+          </executions>
         <configuration>
           <!-- reduce console output. Can override with -Dquiet=false -->
           <quiet>true</quiet>
@@ -244,7 +244,7 @@
             </goals>
             <phase>pre-site</phase>
           </execution>
-        </executions>        
+        </executions>
         <configuration>
           <includes>index.xml</includes>
           <chunkedOutput>true</chunkedOutput>
